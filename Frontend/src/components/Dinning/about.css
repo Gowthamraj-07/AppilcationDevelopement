@@ -1,0 +1,109 @@
+.about-container {
+    padding: 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content */
+  }
+  
+  .features {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+  }
+  
+  .features h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center; /* Center the heading */
+  }
+  
+  .features-content {
+    display: flex;
+    justify-content: center; /* Center the features list */
+  }
+  
+  .features-list {
+    display: flex;
+  
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+    justify-content: space-between; /* Distribute space between columns */
+  }
+  
+  .feature-item {
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+  }
+  
+  .feature-item svg {
+    margin-right: 10px;
+  }
+  
+  .reviews {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+  }
+  
+  .reviews h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center; /* Center the heading */
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the rating */
+    margin-bottom: 20px;
+  }
+  
+  .rating-value {
+    font-size: 36px; /* Increased size */
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .stars {
+    display: flex;
+    align-items: center;
+    color: #ff9800;
+    margin-right: 10px;
+  }
+  
+  .stars svg {
+    font-size: 24px; /* Adjust star size */
+  }
+  
+  .reviews-count {
+    color: #888;
+    margin-left: 10px; /* Space out review count */
+  }
+  
+  .rating-breakdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute space */
+  }
+  
+  .rating-breakdown > div {
+    width: 45%; /* Adjust the width of each item */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .rating-breakdown > div > span:first-child {
+    color: #555; /* Color for rating categories */
+  }
+  
+  .rating-breakdown > div > span:last-child {
+    color: #000; /* Color for rating values */
+    font-weight: bold; /* Bold rating values */
+  }
+  

@@ -1,0 +1,53 @@
+/* AddHotel.css */
+
+.add-hotel-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.form-title {
+    text-align: center;
+    color: #333;
+}
+
+.form-input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.menuItem {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.menuItem-title {
+    text-align: center;
+    color: #333;
+}
+
+.add-menuItem-button, .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.add-menuItem-button:hover, .submit-button:hover {
+    background-color: #218838;
+}

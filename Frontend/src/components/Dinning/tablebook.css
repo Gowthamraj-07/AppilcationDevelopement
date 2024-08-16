@@ -1,0 +1,179 @@
+.restaurant-booking {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.restaurant-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+  margin-top: 30px;
+  gap: 28%;
+  flex-wrap: wrap; /* Allows wrapping of content on smaller screens */
+}
+
+.restaurant-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.restaurant-info h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.restaurant-info p {
+  margin: 5px 0;
+}
+
+.restaurant-tags span {
+  display: inline-block;
+  background-color: #eee;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.offers-section {
+  padding: 20px;
+}
+
+.select-slot-button {
+  background-color: rgb(241, 98, 131);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slot-picker-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Adjust this value as needed */
+}
+
+.slot-picker {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1001; /* Higher than overlay to ensure it's on top */
+}
+
+.close-slot-picker {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #333;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.slot-picker h3, .slot-picker h4 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.date-picker .date-buttons, .time-picker .time-buttons, .guest-number-picker .person-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.date-picker button,
+.time-picker button,
+.guest-number-picker button {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.date-picker button.selected,
+.time-picker button.selected,
+.guest-number-picker button.selected {
+  background-color: orange;
+  color: white;
+}
+
+.find-offer-button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+.horizontal-line {
+  border: 0;
+  height: 2px; /* Adjust the thickness */
+  background-color: #5b5958; /* Adjust the color */
+  margin: 20px auto 0 auto; /* Adjust the spacing around the line and center horizontally */
+  width: 80%; /* Set the width to 80% */
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  .restaurant-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .restaurant-info {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .restaurant-image {
+    width: 150px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .restaurant-header {
+    gap: 0;
+  }
+
+  .restaurant-info {
+    text-align: center;
+  }
+
+  .restaurant-image {
+    margin-bottom: 20px;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,74 @@
+.toggle-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 60px; /* Adjust width as needed */
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 20px;
+    position: relative;
+    padding: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-container.veg {
+    background-color: #4caf50; /* Green for Veg */
+  }
+  
+  .toggle-container.non-veg {
+    background-color: #f44336; /* Red for Non-Veg */
+  }
+  
+  .toggle-slider {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .toggle-container.veg .toggle-slider {
+    transform: translateX(0);
+  }
+  
+  .toggle-container.non-veg .toggle-slider {
+    transform: translateX(30px); /* Adjust according to the container size */
+  }
+  
+  .symbol {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .veg-symbol {
+    background-color: #4caf50; /* Green square for Veg */
+    /* Add more styles for the Veg symbol if needed */
+  }
+  
+  .non-veg-symbol {
+    background-color: #f44336; /* Red square for Non-Veg */
+    /* Add more styles for the Non-Veg symbol if needed */
+  }
+  
+  .veg-symbol::before {
+    content: "🌿"; /* Emoji or use an SVG/image for a leaf symbol */
+    font-size: 16px;
+    color: white;
+  }
+  
+  .non-veg-symbol::before {
+    content: "🍖"; /* Emoji or use an SVG/image for a non-veg symbol */
+    font-size: 16px;
+    color: white;
+  }
+  

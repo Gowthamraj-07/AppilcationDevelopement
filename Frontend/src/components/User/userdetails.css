@@ -1,0 +1,116 @@
+/* Container styles */
+.account-container {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 60px auto;
+    max-width: 1200px; /* Adjust the maximum width to fill more than half the page */
+    max-height: 70%;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 300px; /* Increased width */
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sidebar-menu li.active {
+    font-weight: bold;
+    background-color: lightgray; /* Light gray background for active section */
+}
+
+.sidebar-menu li:hover {
+    text-decoration: underline;
+}
+
+/* Account details styles */
+.account-details {
+    text-align: left;
+    flex: 1;
+    padding: 40px; /* Increased padding */
+    background-color: #f9f9f9; /* Added background color for better visual separation */
+    max-height: 385px;
+    overflow-y: scroll;
+}
+
+.account-details h3 {
+    font-size: 24px; /* Increased font size */
+    margin-bottom: 20px; /* Increased margin bottom */
+}
+
+.required-fields {
+    color: red;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.details-form {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    min-width: 150px; /* Increased min-width */
+}
+
+.form-group span {
+    flex: 1;
+    text-align: right;
+}
+
+.form-group input {
+    width: 100%; /* Make the input fill the width of its container */
+    padding: 10px; /* Increase padding for a bigger input box */
+    font-size: 16px; /* Increase font size */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Add border radius */
+}
+
+.edit-button, .save-button {
+    display: block;
+    width: 120px; /* Increased width */
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.save-button {
+    background-color: green;
+}
+
+.save-button:hover {
+    background-color: darkgreen;
+}
+
+.edit-button:hover {
+    background-color: #333;
+}

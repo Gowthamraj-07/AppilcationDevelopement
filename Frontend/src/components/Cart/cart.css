@@ -1,0 +1,118 @@
+#custom-cart-container {
+    width: 80%;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: left;
+    margin-bottom: 170px;
+  }
+  
+  #custom-cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #custom-cart-header h2 {
+    margin: 0;
+  }
+  
+  #custom-cart-header a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  #custom-cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #custom-cart-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  #custom-cart-item-details {
+    flex: 1;
+  }
+  
+  #custom-cart-item-name {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  #custom-cart-item-size,
+  #custom-cart-item-veg,
+  #custom-cart-item-price {
+    margin: 5px 0;
+  }
+  
+  #custom-cart-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  #custom-decrement-button,
+  #custom-increment-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  #custom-decrement-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #custom-cart-quantity {
+    margin: 0 10px;
+  }
+  
+  #custom-save-for-later,
+  #custom-remove {
+    color: red;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  #custom-cart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  
+  #custom-total-items,
+  #custom-subtotal {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  #custom-checkout-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

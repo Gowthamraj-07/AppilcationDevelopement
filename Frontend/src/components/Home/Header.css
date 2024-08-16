@@ -1,0 +1,26 @@
+
+#header{
+    height: 70vh;
+    width: 100%;
+    background-image: url(Home.png);
+    background-size: cover;
+    color: white;
+    text-align: left;
+    
+   
+}
+#header *{
+    margin: 0;
+    padding: 0;
+}
+.custom-button {
+    background-color: #EF4F5F !important; /* Ensure the custom color applies */
+    color: white !important; /* Ensure the text color applies */
+    border: none !important; /* Remove the default border */
+    padding: 10px !important;
+}
+
+.custom-button:hover {
+    background-color: #e23d53 !important; /* Darker shade for hover effect */
+}
+

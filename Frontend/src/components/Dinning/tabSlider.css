@@ -1,0 +1,102 @@
+.tab-slider-container {
+  position: relative;
+}
+
+.tab-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab.active {
+  font-weight: bold;
+}
+
+.underline {
+  position: absolute;
+  height: 3px;
+  background-color: #000;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.offers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.offer-banner {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.menu-container {
+  padding: 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  position: relative; /* Added to allow absolute positioning of the info icon */
+}
+
+.menu-item-image {
+  width: 140px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.menu-item-details {
+  flex: 1;
+}
+
+.menu-item-name {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.menu-item-description {
+  margin: 5px 0;
+}
+
+.menu-item-rating {
+  display: flex;
+  align-items: center;
+}
+
+
+.info-icon {
+  cursor: pointer;
+  position: absolute; /* Absolute positioning */
+  top: 10px; /* Position at the top */
+  right: 10px; /* Position at the right */
+}
+
+.stylish-menu {
+  font-size: 2em;
+  text-align: center;
+}

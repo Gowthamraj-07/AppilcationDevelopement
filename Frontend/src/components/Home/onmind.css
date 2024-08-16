@@ -1,0 +1,18 @@
+.photo-row {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: nowrap; /* Prevents images from wrapping to the next line */
+  gap: 50px; /* Space between images */
+  padding: 10px;
+  scrollbar-width: none; /* For Firefox */
+}
+
+.photo-row::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.photo-row img {
+  width: 170px; /* Adjust the size as needed */
+  height: 170px; /* Adjust the size as needed */
+  object-fit: cover;
+}

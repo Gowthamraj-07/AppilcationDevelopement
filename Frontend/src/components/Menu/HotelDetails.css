@@ -1,0 +1,85 @@
+/* src/WelcomCafe.css */
+
+.welcomcafe {
+ 
+    padding: 20px;
+    text-align: left;
+    margin-left: 19%;
+    margin-top: 30px;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .main-image img {
+    width: 190px;
+    height: 180px;
+    border-radius: 5px;
+  }
+  
+  .details {
+    margin-left: 20px;
+    flex: 1;
+  }
+  
+  .details h1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    font-weight: bolder;
+  }
+  
+  .details p {
+    margin: 5px 0;
+  }
+  
+  .timing {
+    color: green;
+  }
+  
+  .actions {
+    margin-top: 10px;
+  }
+  
+  .actions button {
+    background-color: #ff2365;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .images img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  

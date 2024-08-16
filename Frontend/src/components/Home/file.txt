@@ -1,0 +1,406 @@
+[
+    {
+        "hotelId": 1,
+        "hotelName": "Sai Brindhavan",
+        "hotelLocation": "Ramanathapuram",
+        "hotelUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fvxeg8wezgowcit6tsyo",
+        "style": "South Indian, Chinese",
+        "rating": "4.3",
+        "city": "Coimbatore",
+        "menuItems": [
+            {
+                "id": 8,
+                "name": "Ghee Roast",
+                "description": "",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/58d6ff6abe0b47d19dbd92ccbf8300be",
+                "price": 115.0,
+                "type": "veg",
+                "rating": "4.0"
+            },
+            {
+                "id": 6,
+                "name": "Mushroom Biriyani",
+                "description": "",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/0408298ff26ca91dae93ff25c4799077",
+                "price": 130.0,
+                "type": "veg",
+                "rating": "4.2"
+            },
+            {
+                "id": 9,
+                "name": "Curd Rice",
+                "description": "",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/3/6/d9b112a6-e9c5-499c-93e7-0b257097824e_15435f2d-5964-41ba-a4af-9f44d933e6d7",
+                "price": 80.0,
+                "type": "veg",
+                "rating": "3.8"
+            },
+            {
+                "id": 5,
+                "name": "Vada",
+                "description": "",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/357f8209d6a5c930074f8d7e84b15cf9",
+                "price": 30.0,
+                "type": "veg",
+                "rating": "4.1"
+            },
+            {
+                "id": 7,
+                "name": "Rava Roast",
+                "description": "",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/7/8/c93cce1a-e731-4f47-be94-50c7e3324a1f_21181dbb-e0c0-4812-b3fb-301bae869679.jpeg",
+                "price": 95.0,
+                "type": "veg",
+                "rating": "4.3"
+            },
+            {
+                "id": 1,
+                "name": "Mini Sambar Ghee Idly",
+                "description": "",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/8ada89f5e39cfef6d67c820931741172",
+                "price": 67.0,
+                "type": "veg",
+                "rating": "4.0"
+            },
+            {
+                "id": 2,
+                "name": "Vegetable Biriyani",
+                "description": "",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/030b480aae03a1cf9574e906360e99e6",
+                "price": 120.0,
+                "type": "veg",
+                "rating": "4.1"
+            },
+            {
+                "id": 4,
+                "name": "Onion Uttapam",
+                "description": "",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/wtriuhpk1mqdwulhsyvz",
+                "price": 130.0,
+                "type": "veg",
+                "rating": "3.9"
+            },
+            {
+                "id": 3,
+                "name": "Thattu Podi Ghee Idly",
+                "description": "",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/4e6ac45edca6f2accb468899f2a5577a",
+                "price": 54.0,
+                "type": "veg",
+                "rating": "4.3"
+            },
+            {
+                "id": 10,
+                "name": "Curd Semiya",
+                "description": "",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/258828e719f91bc25508ef0b4fbe4a4e",
+                "price": 105.0,
+                "type": "veg",
+                "rating": "4.0"
+            }
+        ]
+    },
+    {
+        "hotelId": 2,
+        "hotelName": "Chinese Wok",
+        "hotelLocation": "Peelamedu",
+        "hotelUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/e0839ff574213e6f35b3899ebf1fc597",
+        "style": "Chinese",
+        "rating": "4.7",
+        "city": "Coimbatore",
+        "menuItems": [
+            {
+                "id": 11,
+                "name": "Fried Chicken Wheat Momos With Momo Chutne",
+                "description": "Serves 1 | Aromatic chicken mince encased & fried in wheat wrapper. Served with momo chutney",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/6/7/199514d6-77c2-4134-929a-94b97a799953_ba658061-7337-4cec-ad45-7ff8d7802589.jpg_compressed",
+                "price": 199.0,
+                "type": "nonveg",
+                "rating": "4.0"
+            },
+            {
+                "id": 12,
+                "name": "Steamed Chicken Wheat Momos With Momo Chutney",
+                "description": "Serves 1 | Aromatic chicken mince encased in wheat wrapper.Served with momo chutney",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/6/7/45a44033-51c1-494e-984c-866a966e0b7b_cfdc282e-5300-4d43-af3c-292b5087089f.jpg_compressed",
+                "price": 229.0,
+                "type": "nonveg",
+                "rating": "4.3"
+            },
+            {
+                "id": 16,
+                "name": "Combo for 1 Veg",
+                "description": "Serves 1 | Combo for one (Rice/Noodle Bowl with choice of Veg Gravy, Veg Momos & Drinks)",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/3e4f7ca32bf517b390f1cb3205b892e4",
+                "price": 359.0,
+                "type": "veg",
+                "rating": "4.0"
+            },
+            {
+                "id": 19,
+                "name": "Kung Pao Chicken Bowl",
+                "description": "Serves 1 | (Medium Spicy) Chicken & Veggies Tossed In Kung Pao Sauce, Served With Choice Of Rice/ Noodle.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/6/7/1449905f-a8ed-4f5c-8572-c13046bd23af_46b11a3d-d3bc-4020-8e5a-26a1392101bf.jpg_compressed",
+                "price": 340.0,
+                "type": "nonveg",
+                "rating": "4.2"
+            },
+            {
+                "id": 20,
+                "name": "Salted Caramel Choco Mousse",
+                "description": "Serves 1 | Layers of Salted Caramel mousse and Choco mousse served chilled",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/6/7/99e4d3ff-d474-4665-bc1b-25a172302149_836b958b-9e77-496c-a7a0-a1fc6d7cae2e.jpg_compressed",
+                "price": 79.0,
+                "type": "veg",
+                "rating": "4.3"
+            },
+            {
+                "id": 13,
+                "name": "Schezwan Chicken Dry",
+                "description": "Serves 1 | (Spicy) Diced Chicken, Onion, Capsicum Tossed With Schezwan Sauce.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/6/7/ca939afd-fad4-48f0-b0e6-567c81c0f8b9_dc08e37f-95db-49ed-bf51-a876febf53df.jpg_compressed",
+                "price": 199.0,
+                "type": "nonveg",
+                "rating": "4.9"
+            },
+            {
+                "id": 14,
+                "name": "Schezwan Chicken Bowl",
+                "description": "Serves 1 | (Spicy) Chicken & Veggies Tossed In Schezwan Sauce, Served With Choice Of Rice/ Noodle.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/6/7/c28757ca-2780-4843-84ec-b221312368dc_735fd348-fd94-419c-8169-21f9e9905a7f.jpg",
+                "price": 339.0,
+                "type": "nonveg",
+                "rating": "4.2"
+            },
+            {
+                "id": 18,
+                "name": "Combo for 1 Non-Veg",
+                "description": "Serves 1 | Combo for one (Rice/Noodle Bowl with choice of Non-Veg Gravy, Non- Veg Momos & Drinks)",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/440c06ace44b931b729d9b6a090aba07",
+                "price": 379.0,
+                "type": "nonveg",
+                "rating": "4.7"
+            },
+            {
+                "id": 15,
+                "name": "Schezwan Paneer Dry",
+                "description": "Serves 1 | (Spicy) Cubes Of Paneer, Onion, Capsicum Tossed With Schezwan Sauce.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/6/7/e3d760e8-a686-446b-887e-0a3256b077f4_1d4af440-1e94-440e-8e46-762968fb77a1.jpg_compressed",
+                "price": 199.0,
+                "type": "veg",
+                "rating": "4.0"
+            },
+            {
+                "id": 17,
+                "name": "Black forest Mousse Cake",
+                "description": "Serves 1 | Evergreen cake recipe, served in a mousse style dessert",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/3aeaee91-6bce-45f1-bad4-0ee4da6e3fef_7a319038-77af-47d2-b67b-b5868a48f668.jpg_compressed",
+                "price": 89.0,
+                "type": "veg",
+                "rating": "4.1"
+            }
+        ]
+    },
+    {
+        "hotelId": 3,
+        "hotelName": "The Belgian Waffle Co.",
+        "hotelLocation": "RS Puram",
+        "hotelUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/onq8rhxujd0sx8kubaew",
+        "style": "Waffle, Desserts, Ice cream",
+        "rating": "4.6",
+        "city": "Coimbatore",
+        "menuItems": [
+            {
+                "id": 27,
+                "name": "Belgian Chocolate Milk Waffle",
+                "description": "0 gram | Classic Crispy Waffle + Melted Belgian Milk Chocolate. Simplicity At Its Best!",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/uepao2q7bc4prdmqw6rx",
+                "price": 155.0,
+                "type": "veg",
+                "rating": "4.5"
+            },
+            {
+                "id": 29,
+                "name": "Oreo Shake",
+                "description": "Thick shake blended with tons of chocloate Oreos! (Images are for representation purpose only)",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/lzuyxde65ewytxvjowlv",
+                "price": 170.0,
+                "type": "veg",
+                "rating": "4.3"
+            },
+            {
+                "id": 30,
+                "name": "Almond Cocoa Butter Waffle",
+                "description": "0 gram | Classic Crispy Waffle + Cocoa Butter Topped With Roasted Almonds. Nutty & Delicious!",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/sltrdervslg41lifbjhh",
+                "price": 179.0,
+                "type": "veg",
+                "rating": "4.0"
+            },
+            {
+                "id": 24,
+                "name": "Snickers Waffle",
+                "description": "Classic Crispy Waffle + Roasted Peanut Butter with caramel sauce & melted Belgian Milk Chocolate, topped with real Snickers. A comforting classic reimagined.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/4/8bfacf30-55b2-46c6-9c05-3ce77d2076bc_432375c6-5c11-48c9-991c-5f93650c2f0e.png",
+                "price": 185.0,
+                "type": "veg",
+                "rating": "4.2"
+            },
+            {
+                "id": 26,
+                "name": "Belgian Chocolate Shake",
+                "description": "One Of Our Darker Chocolate Shakes Made With Belgian Chocolate. (Images are for representation purpose only)",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/c5spw0kigqbyh5uq1zl9",
+                "price": 179.0,
+                "type": "veg",
+                "rating": "4.3"
+            },
+            {
+                "id": 22,
+                "name": "Chocolate Overload Milk Waffle",
+                "description": "0 gram | Signature Dark Chocolate Waffle + Melted Belgian Milk Chocolate. Double The Chocolate!",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/uoqt4nodzskmp1xldjbw",
+                "price": 165.0,
+                "type": "veg",
+                "rating": "4.9"
+            },
+            {
+                "id": 25,
+                "name": "Ice Cream & Fudge Chocolate Waffle",
+                "description": "Classic Crispy Waffle + Layer Of Chocolate Fudge Sauce Topped with Chocolate Ice Cream And Chocolate Fudge Drizzle. A Dreamy Combination!",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/dnkoaek8pr8ormkj4ahw",
+                "price": 195.0,
+                "type": "veg",
+                "rating": "4.0"
+            },
+            {
+                "id": 23,
+                "name": "Maple Butter Waffle",
+                "description": "0 gram | Classic Crispy Waffle + Warm Melted Butter And Maple Syrup Drizzle. An American Classic!",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/cme1izhghagg1vkvvpgu",
+                "price": 110.0,
+                "type": "veg",
+                "rating": "4.0"
+            },
+            {
+                "id": 28,
+                "name": "KitKat Shake",
+                "description": "A Chocolatey Shake topped with Kit Kat bits! (Images are for representation purpose only)",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/sqianae2afslhoyodfrq",
+                "price": 180.0,
+                "type": "veg",
+                "rating": "4.0"
+            },
+            {
+                "id": 21,
+                "name": "Rocky Road",
+                "description": "Signature Dark Chocolate Waffle Loaded With A Combination Of Vanilla Ice Cream, Melted Milk Chocolate, Oreo Cookies And Roasted Almonds. Simply Majestic.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/ietykhrzrfetnvxixszx",
+                "price": 195.0,
+                "type": "veg",
+                "rating": "4.9"
+            }
+        ]
+    },
+    {
+        "hotelId": 4,
+        "hotelName": "Hidden Fork",
+        "hotelLocation": "Peelamedu",
+        "hotelUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/gi1lza6wmcmposr2rofq",
+        "style": "Waffle, Desserts, Ice cream",
+        "rating": "4.7",
+        "city": "Coimbatore",
+        "menuItems": [
+            {
+                "id": 33,
+                "name": "Hidden Fork Special Sandwich",
+                "description": "3 Layered Monster Sandwich Made With Juicy Chunky Chicken, Sausages, Herb Mayo, Fried Egg And Cheese.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/nppwkexiujxcg57xu9bm",
+                "price": 300.0,
+                "type": "nonveg",
+                "rating": "4.2"
+            },
+            {
+                "id": 31,
+                "name": "Cheese Garlic Bread",
+                "description": "Fresh Baked Garlic Bread Topped With Cheese And Baked.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/ndmemzmjeubiaoikhihy",
+                "price": 145.0,
+                "type": "veg",
+                "rating": "3.7"
+            },
+            {
+                "id": 38,
+                "name": "Mozzarella Cheese Sticks",
+                "description": "Panko Crumbed Mozzarella Cheese",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/fc31627dbffd39d19480d215274279fc",
+                "price": 170.0,
+                "type": "veg",
+                "rating": "3.7"
+            },
+            {
+                "id": 32,
+                "name": "Chicken Fingers",
+                "description": "Mildly Seasoned Minced Chicken Strips, Dipped In Batter Emulsion For Coating With Bread Crumb.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/eotyhycjz0g5ya5yyu0v",
+                "price": 170.0,
+                "type": "nonveg",
+                "rating": "3.9"
+            },
+            {
+                "id": 40,
+                "name": "Chicken Burger",
+                "description": "Crumb Fried Chicken Patty Topped With Lots Of In House Sauces And Lettuce.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/a8ac36aa522be3a2044f2ba7f26a0b10",
+                "price": 180.0,
+                "type": "nonveg",
+                "rating": "4.1"
+            },
+            {
+                "id": 34,
+                "name": "Fiery Chicken Pizza (9 Inch)",
+                "description": "| Serves 1 | Spicy Chicken And Onion.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/jvrjizi9yee3scvxphk2",
+                "price": 340.0,
+                "type": "nonveg",
+                "rating": "3.8"
+            },
+            {
+                "id": 35,
+                "name": "Chicken Popcorn",
+                "description": "Mildly Seasoned Chicken Cubes, Dipped In Batter Emulsion For Coating With Bread Crumb.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/dn0k47zt4qqexaezrjuz",
+                "price": 165.0,
+                "type": "nonveg",
+                "rating": "4.5"
+            },
+            {
+                "id": 36,
+                "name": "Peri Peri Fries",
+                "description": "Crispy Fries Tossed In Spicy Peri Peri Seasoning And Served With Garlic Aioli.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/xiwfunydglsmuaos1jyu",
+                "price": 160.0,
+                "type": "veg",
+                "rating": "4.0"
+            },
+            {
+                "id": 39,
+                "name": "Spicy Chicken Sandwich",
+                "description": "Wheat Bread Sandwiched With Shredded Chicken Mixture And Flavoured With Tongue Tickling Spice Mixes.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/lp7jtrlxudrj6it2bs3b",
+                "price": 195.0,
+                "type": "nonveg",
+                "rating": "4.9"
+            },
+            {
+                "id": 37,
+                "name": "Mexicana Pizza Nonveg (9 Inch)",
+                "description": "| Serves 1 | Grilled Chicken And Chipotle.",
+                "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/pfxaliuwlq22ojs7nego",
+                "price": 340.0,
+                "type": "nonveg",
+                "rating": "4.0"
+            }
+        ]
+    }
+]

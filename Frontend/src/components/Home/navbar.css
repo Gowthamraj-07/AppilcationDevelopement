@@ -1,0 +1,52 @@
+#nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+#right-nav p{
+    float: left;
+    padding: 18px 80px 10px 0;
+    
+}
+.dropdown{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 0px 0 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
+#right-nav{
+    margin-right: 30px;
+}
+#left-nav h2{
+    float: left;
+    padding: 10px 10px 0px 100px;
+}
+.bg-body-tertiary{
+    height: 100px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .search-input {
+    padding-right: 35px; /* Adjust padding to make space for the close icon */
+  }
+  
+  .close-icon {
+    position: absolute;
+    right: 35px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .mic-icon {
+    margin-left: 10px; /* Adjust this value as needed */
+    cursor: pointer;
+    color: black;
+  }
+  

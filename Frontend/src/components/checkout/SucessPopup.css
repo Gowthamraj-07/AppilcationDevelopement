@@ -1,0 +1,90 @@
+/* SuccessPopup.css */
+.unique-popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .unique-popup-container.unique-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .unique-popup-content {
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 460px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: slideIn 0.5s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .unique-icon {
+    width: 100px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    animation: scaleIn 0.5s ease-out;
+  }
+  
+  @keyframes scaleIn {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  #unique-thank-you {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #unique-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #777;
+  }
+  
+  .unique-view-order,
+  .unique-continue-shopping {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .unique-view-order:hover,
+  .unique-continue-shopping:hover {
+    background-color: #45a049;
+  }
+  

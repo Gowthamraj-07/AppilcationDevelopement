@@ -1,0 +1,57 @@
+/* Footer.css */
+
+.footer {
+    background-color: black; /* Black background for the footer */
+    color: white;            /* White text color */
+    padding: 20px 0;        /* Padding around the content */
+    text-align: center;      /* Center-align text */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly */
+    flex-wrap: wrap;              /* Wrap items on smaller screens */
+    max-width: 1200px;            /* Max width for content alignment */
+    margin: 0 auto;               /* Center the content horizontally */
+}
+
+.footer-services, .footer-links, .footer-social {
+    flex: 1;                      /* Allow sections to grow equally */
+    margin: 0 15px;               /* Margin around sections */
+}
+
+.footer-services h4, .footer-links h4, .footer-social h4 {
+    margin-bottom: 10px;          /* Space below headings */
+    font-size: 18px;              /* Font size for headings */
+}
+
+.footer-services ul {
+    list-style-type: none;        /* Remove bullet points */
+    padding: 0;                   /* Remove default padding */
+}
+
+.footer-services li {
+    margin: 5px 0;                /* Space between list items */
+    font-size: 14px;              /* Font size for list items */
+}
+
+.footer-links a, .footer-social a {
+    display: block;               /* Display links as block elements */
+    margin: 5px 0;                /* Space between links */
+    color: white;                 /* White text color for links */
+    text-decoration: none;        /* Remove underline from links */
+}
+
+.footer-links a:hover, .footer-social a:hover {
+    text-decoration: underline;   /* Underline links on hover */
+}
+
+.footer-bottom {
+    border-top: 1px solid #333;   /* Border at the top of the footer */
+    padding-top: 10px;            /* Padding above the footer text */
+    margin-top: 20px;             /* Margin above the footer bottom */
+}
+
+.footer-bottom p {
+    font-size: 14px;              /* Font size for footer text */
+}

@@ -1,0 +1,37 @@
+.option-selector {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 30px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .option img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+  .option span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .option.active {
+    background-color: #ffeef2; /* Light red background for active */
+    color: #e94e60; /* Red color for active text */
+  }
+  
+  .option:not(.active) {
+    background-color: #f5f5f5; /* Light grey background for inactive */
+    color: #6c757d; /* Grey color for inactive text */
+  }
+  

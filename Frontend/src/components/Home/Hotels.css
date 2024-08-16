@@ -1,0 +1,57 @@
+/* Hotels.css */
+
+.hotel-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid layout */
+  gap: 16px;        /* Space between cards */
+  padding: 16px;    /* Padding around the container */
+}
+
+.hotel-card {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  border-radius: 8px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.hotel-image {
+  width: 100%;          /* Full width */
+  height: 150px;        /* Fixed height */
+  object-fit: cover;    /* Ensure image covers the area */
+  border-radius: 12px;  /* Circular border radius */
+  margin-bottom: 8px;   /* Space below the image */
+}
+
+.hotel-info {
+  text-align: left;     /* Align text to the left */
+}
+
+.hotel-name {
+  font-size: 18px;
+  margin: 8px 0;        /* Margin above and below */
+}
+
+.hotel-location, .hotel-rating, .hotel-description {
+  margin: 4px 0;        /* Margin above and below */
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (min-width: 1200px) {
+  .hotel-container {
+      grid-template-columns: repeat(4, 1fr); /* 4 cards horizontally on large screens */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hotel-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 cards horizontally on medium screens */
+  }
+}
+
+@media (max-width: 767px) {
+  .hotel-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards horizontally on small screens */
+  }
+}

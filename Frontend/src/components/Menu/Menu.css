@@ -1,0 +1,180 @@
+.menu-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.menu-item {
+  display: flex;
+  padding: 30px;
+  border-bottom: 1px solid gray;
+  align-items: flex-start;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.menu-item-image {
+  width: 180px;
+  height: 170px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.menu-item-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.menu-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+}
+
+.menu-item-description {
+  margin: 10px 0;
+  color: #555;
+  text-align: left;
+}
+
+.menu-item-rating {
+  color: #555;
+  text-align: left;
+}
+
+.menu-item-price {
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
+
+.add-to-button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+ 
+}
+
+.add-to-button:hover {
+  background-color: #218838;
+}
+
+.cart-controls {
+  display: flex;
+  align-items: center;
+  
+}
+
+.decrement-button,
+.increment-button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.decrement-button:hover,
+.increment-button:hover {
+  background-color: #218838;
+}
+
+.cart-quantity {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.stylish-menu {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 800;
+  font-size: 32px; /* Adjust size as needed */
+  color: #333; /* Adjust color as needed */
+  text-align: center; /* Center the text if desired */
+  margin: 20px 0; /* Add margin if needed */
+}
+.modal-box {
+  position: 'absolute';
+  top: '50%';
+  left: '50%';
+  transform: 'translate(-50%, -50%)';
+  width: 400;
+  background-color: 'white';
+  border: '2px solid #000';
+  box-shadow: 24;
+  padding: '16px 32px 24px';
+  outline: 'none';
+}
+
+
+
+
+.filter-options {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 20px;
+ 
+}
+
+.filter-group {
+  
+
+ 
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.filter-group.sorting-group {
+  padding-right: 12px;
+  margin-right: 12px;
+}
+
+.filter-options button {
+  background-color: white;
+  border: 2px solid #b0b0b0; /* Light gray border */
+  color: #666; /* Darker gray text */
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.filter-group.sorting-group button {
+  border-color: #b0b0b0; /* Light gray for sorting */
+  color: #666;
+}
+
+.filter-options button:hover {
+  background-color: #b0b0b0; /* Darker gray on hover */
+  color: white;
+}
+
+.filter-group.sorting-group button:hover {
+  background-color: #a0a0a0; /* Slightly darker gray on hover */
+  color: white;
+}
+
+.filter-options button.active {
+  background-color: #808080; /* Active state with a medium gray */
+  color: white;
+}
+
+.filter-group.sorting-group button.active {
+  background-color: #808080; /* Matching medium gray for active state */
+  color: white;
+}

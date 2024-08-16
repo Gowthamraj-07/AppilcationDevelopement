@@ -1,0 +1,93 @@
+.login-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .login-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .otp-button, .email-button, .google-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .otp-button {
+    background-color: #fc4c4e;
+    color: white;
+  }
+  
+  .email-button {
+    background-color: #f5f5f5;
+  }
+  
+  .google-button {
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  .or-divider {
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .signup-link a {
+    color: #fc4c4e;
+    text-decoration: none;
+  }
+  .closelogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  

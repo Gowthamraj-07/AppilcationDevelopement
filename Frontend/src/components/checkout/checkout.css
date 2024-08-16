@@ -1,0 +1,107 @@
+.checkout-container-unique {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .checkout-title-unique {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .billing-and-order-container-unique {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  
+  .billing-details-unique, .order-summary-unique {
+    width: 48%;
+  }
+  
+  .billing-details-unique h2, .order-summary-unique h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .billing-form-unique {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group-unique {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .form-group-unique label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left; /* Ensure the label text is left-aligned */
+  }
+  
+  .form-group-unique input, .form-group-unique select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .order-summary-unique ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .order-header-unique {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .order-list-unique {
+    margin-bottom: 15px;
+  }
+  
+  .order-item-unique {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-align: left;
+  }
+  
+  .order-total-unique {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
+  .place-order-button-unique {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .place-order-button-unique:hover {
+    background-color: #0056b3;
+  }
+  
